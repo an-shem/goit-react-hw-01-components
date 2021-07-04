@@ -32,16 +32,18 @@ export const Name = styled.p`
 
 export const Tag = styled.p`
   margin-bottom: 30px;
-  font-weight: 500;
+  font-weight: 700;
   font-size: 20px;
   line-height: 22px;
+  color: #5e5b5bb5;
 `;
 
 export const Location = styled.p`
   margin-bottom: 40px;
-  font-weight: 500;
+  font-weight: 700;
   font-size: 20px;
   line-height: 22px;
+  color: #5e5b5bb5;
 `;
 
 export const StatsList = styled.ul`
@@ -63,9 +65,10 @@ export const StatsItem = styled.li`
 
 export const StatsLabel = styled.span`
   margin-bottom: 10px;
-  font-weight: 500;
+  font-weight: 700;
   font-size: 16px;
   line-height: 18px;
+  color: #5e5b5bb5;
 `;
 
 export const StatsQuantity = styled.span`
