@@ -17,7 +17,7 @@ function Statistics({ title, stats }) {
         {stats.map(statsItem => (
           <Item key={statsItem.id} color={getRandomColor()}>
             <Label>{statsItem.label}</Label>
-            <Percentage>{statsItem.percentage}</Percentage>
+            <Percentage>{statsItem.percentage}%</Percentage>
           </Item>
         ))}
       </StatLlist>
